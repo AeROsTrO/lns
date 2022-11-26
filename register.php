@@ -1,9 +1,9 @@
 <?php
 session_start();
-    $servername="localhost";
-    $usrname="root";
-    $password="Rahul402!";
-    $dbname="lns";
+$servername="sql212.epizy.com";
+$username="epiz_33071469";
+$pssword="q2Fo5VarcCev5vq";
+$dbname="epiz_33071469_lns";
     //connecting to database
     $link=new mysqli($servername, $usrname, $password, $dbname);
     

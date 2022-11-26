@@ -3,10 +3,10 @@ session_start();
 // $val=$_SESSION['subject'];
 
     
-    $servername="localhost";
-    $username="root";
-    $password="Rahul402!";
-    $dbname="lns";
+$servername="sql212.epizy.com";
+$username="epiz_33071469";
+$pssword="q2Fo5VarcCev5vq";
+$dbname="epiz_33071469_lns";
     $link=new mysqli($servername, $username, $password, $dbname);
     $subject=$_POST["subject"];
     $_SESSION['subj']=$subject;

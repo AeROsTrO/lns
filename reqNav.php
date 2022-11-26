@@ -2,11 +2,11 @@
 session_start();
     // $imgSrc="imgTest.jpg";
     // header("Location: homePage.php?im=".$imgSrc);
-    // echo $_SESSION['num'];
+    echo $_SESSION['num'];
     
-    $val=$_SESSION['subj'];
+    $val=$_SESSION['num'];
     echo "<p style='color:white; text-align:center; font-size:30px'>$val</p>";
-    $img=array("railway engineering"=>"sam.jpeg", "flood control"=>"sam1.jpeg", "english fiction"=>"sam2.jpeg");
+    $img=array("56"=>"shelf56.jpeg", "43"=>"shelf43.jpeg", "55"=>"PicsArt_11-26-05.12.07.jpg");
     // echo "<img src='./images/$img[$val]' style='height:600px; width:1000px;margin-left:440px'>";
     
    
